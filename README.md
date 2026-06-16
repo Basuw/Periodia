@@ -32,9 +32,9 @@
 
 The application is built with a strict separation between the user interface and the temporal map rendering engine.
 
-* **Frontend:** `[To be completed: e.g., Flutter / React Native]` — For a smooth, cross-platform experience with an engaging, colorful UI.
-* **Mapping Engine:** Integration of geohistorical vector data (temporal GeoJSON) for smooth rendering of border modifications without network overhead.
-* **Database:** `[To be completed: e.g., PostgreSQL / Firebase]` — Management of user profiles, social relationship graphs ("Amigos"), and completed chapter tracking.
+* **Frontend:** React Native — For a smooth, cross-platform mobile experience (iOS and Android) with an engaging, colorful UI.
+* **Backend:** Spring Boot (Java) — A robust, scalable enterprise-grade framework to handle business logic, quiz validations, and user authentication.
+* **Database:** PostgreSQL (with PostGIS extension) — Dedicated to storing transactional user data, social graphs ("Amigos"), and complex geohistorical vector data (temporal GeoJSON) for real-time border modifications.
 
 ---
 
